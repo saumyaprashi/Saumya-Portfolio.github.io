@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saumyapandey.dev-about</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .Second-Section {
+            justify-content: center;
+            padding: 20px;
+            margin: auto;
+        }
+
+        .Second-Section h1 {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .Second-Section div {
+            padding: 12px;
+            margin: 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .First-Section {
+            padding-top: 30px;
+            margin-top: 130px;
+            margin-bottom: 50px;
+        }
+
+        .First-Section div img {
+            display: block;
+            width: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+
+        }
+
+        .Third-Section {
+            padding: 20px;
+            margin: auto;
+        }
+
+        .Third-Section h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .Third-Section div {
+            list-style: none;
+            background: #333;
+            text-transform: uppercase;
+        }
+
+        .skills {
+            width: 500px;
+            margin: 60px auto;
+            color: #fff;
+            padding: 20px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .skills li {
+            margin: 20px 0;
+            padding: 10px;
+        }
+
+        .Third-Section .bar {
+            background: #353b48;
+            display: block;
+            height: 20px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            transition: all 0.3s cubic-bezier(.25, .8, .25, .1);
+
+        }
+
+       
+
+        .bar :hover {
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .bar span {
+            height: 20px;
+            float: left;
+            background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+
+        }
+
+        .Core-Java {
+            width: 85%;
+            animation: Core-Java 3s;
+        }
+
+        .SQL {
+            width: 75%;
+            animation: SQL 3s;
+        }
+
+        .Front-End-Development {
+            width: 75%;
+            animation: Front-End-Development 3s;
+        }
+
+        .Javascript {
+            width: 55%;
+            animation: Javascript 3s;
+        }
+
+        .DSA {
+            width: 65%;
+            animation: DSA 3s;
+        }
+
+        @keyframes Core-Java {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 85%;
+            }
+        }
+
+        @keyframes SQL {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 75%;
+            }
+        }
+
+        @keyframes Front-End-Development {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 75%;
+            }
+        }
+
+        @keyframes Javascript {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 55%;
+            }
+        }
+
+        @keyframes DSA {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 65%;
+            }
+        }
+        .footer {
+            background-color: #100f10;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+            font-size: 15px;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> SaumyaPandey.dev </div>
+            <div class="right"></div>
+            <ul>
+                <!-- To enable Hovering -->
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Projects.html">Projects</a></li>
+                <!-- <li><a href="/">Achievements</a></li> -->
+                <li><a href="./contact.html">Let's Connect</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="First-Section">
+            <div>
+                <img src="myimage.jpeg">
+            </div>
+
+        </section>
+        <section class="Second-Section">
+            <h1>Hey, This is Saumya</h1>
+            <div>
+                <p>
+                    I'm a student of Computer Science and Engineering (2019-23 batch) from Dr. A.P.J
+                    Abdul Kalam Technical University(Lucknow). I'm a Programming and development Enthusiast. Seeking a
+                    full
+                    time opportunity in field of IT and Software Development.
+                    <br>
+                    I aspire to work in future with companies like Microsoft, Google and other Product Based Companies.
+                    <br>
+                    <br>
+                    Take a deep dive into the skills and technologies I'm Proficient with >>
+                </p>
+            </div>
+        </section>
+        <section class="Third-Section">
+            <div class="skills">
+                <h2>My skills</h2>
+                <li>
+                    <h4>Core Java</h4>
+                    <span class="bar"><span class="Core-Java"></span></span>
+                </li>
+                <li>
+                    <h4>SQL</h4>
+                    <span class="bar"><span class="SQL"></span></span>
+                </li>
+                <li>
+                    <h4>Front-End Development</h4>
+                    <span class="bar"><span class="Front-End-Development"></span></span>
+                </li>
+                <li>
+                    <h4>Javascript</h4>
+                    <span class="bar"><span class="Javascript"></span></span>
+                </li>
+                <li>
+                    <h4>DSA</h4>
+                    <span class="bar"><span class="DSA"></span></span>
+                </li>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class = " footer">
+            Copyright&#169;www.saumyasportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>

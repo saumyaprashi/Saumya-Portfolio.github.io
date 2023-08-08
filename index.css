@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 130px 0;
+
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+
+.leftSection {
+    font-size: 2.5rem;
+
+}
+
+.leftSection .btn {
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 3px 8px;
+    transition: all 0.3s ease;
+}
+
+
+.leftSection .Button :hover {
+    background: white;
+    font-size: 0.3rem;
+}
+
+.leftSection .Button {
+    padding: 18px;
+}
+
+.rightSection img {
+    width: 80%;
+
+}
+
+.Purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection div {
+    margin: 23px;
+}
+
+.footer {
+    background-color: #100f10;
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer-first h3 {
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.footer-second ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+.footer-third ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+.footer-fourth ul {
+    list-style: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+
+
+footer .fa {
+    padding: 15px;
+    text-align: center;
+    margin: 3px 1px;
+    font-size: 25px;
+    width: 25px;
+}
+
+/* .fa :hover{
+    background: aliceblue;
+    font-size: 2rem;
+} */
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+.fa-instagram {
+    background: #E4405F;
+    color: white;
+
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
